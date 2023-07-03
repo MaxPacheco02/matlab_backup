@@ -15,6 +15,7 @@ nvr = -8.8;
 nrv = -8.8;
 nrr = -3.49;
 
+l = 0.5;
 m = 30;
 iz = 4.1;
 b = 0.41;
@@ -24,3 +25,4 @@ m_mat = [
     m-x_u_dot, 0, 0;
     0, m-y_v_dot, 0-y_r_dot;
     0, 0-n_v_dot, iz-n_r_dot];
+m_inv = m_mat^-1;
