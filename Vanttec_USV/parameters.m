@@ -1,7 +1,7 @@
 % parameters file
 
 x_u_dot = -2.25;
-y_v_dot = -23.23;
+y_v_dot = -23.13;
 y_r_dot = -1.31;
 n_v_dot = -16.41;
 n_r_dot = -2.79;
